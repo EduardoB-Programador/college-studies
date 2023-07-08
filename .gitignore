@@ -4,3 +4,5 @@ Java-notOOP/first-PDF/first-PDF.iml
 Java-notOOP/first-PDF/.idea/misc.xml
 Java-notOOP/first-PDF/.idea/vcs.xml
 Java-notOOP/first-PDF/.idea/modules.xml
+*.xml
+Java-notOOP/secondPDF/secondPDF.iml
