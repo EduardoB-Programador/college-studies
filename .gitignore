@@ -14,3 +14,5 @@ Java-notOOP/secondPDF/.idea/workspace.xml
 *.xml
 Java-notOOP/secondPDF/.idea/workspace.xml
 Java-notOOP/third-PDF/third-PDF.iml
+*.class
+*.iml
