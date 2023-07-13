@@ -7,7 +7,7 @@ import java.util.Scanner;
  * deste valor, ou seja, o número lido como sendo positivo.
  *
  * English
- * Create a code that asks for a integer, positive or negative, then show the number as positive.
+ * Create a code that asks for an integer, positive or negative, then show the number as positive.
  **/
 
 public class Atividade7 {

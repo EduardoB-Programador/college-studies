@@ -8,7 +8,7 @@ import java.util.Scanner;
  * divisível por 4 e 5”.
  *
  * English
- * Create a code that asks for a integer and tell if that number can be divided by 4 and 5, if the number
+ * Create a code that asks for an integer and tell if that number can be divided by 4 and 5, if the number
  * cannot result in a integer after dividing it the code must show "Integer cannot be divided by 4 and 5".
  **/
 
