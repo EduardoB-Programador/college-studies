@@ -19,7 +19,7 @@ public class Atividade10p2 {
                 System.out.println("3 raised to the power of " + i + " is " + (3 * acum));
                 acum = acum * 3;
             }
-            
+
             i++;
         }
     }
