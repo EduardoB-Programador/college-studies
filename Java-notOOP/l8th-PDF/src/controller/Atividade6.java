@@ -33,8 +33,7 @@ import java.util.Scanner;
 public class Atividade6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        String yesOrNo;
+        
         int select ,out = 0;
 
         System.out.println("How much do you weight?(in Kilograms)");
