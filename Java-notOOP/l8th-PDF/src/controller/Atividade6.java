@@ -76,9 +76,12 @@ public class Atividade6 {
                     System.out.println("Your weight in Uranus is " + (weight * 1.17) + " kilograms.");
                     break;
 
-                default:
+                case 7:
                     System.out.println("Program ended. You left.");
                     out++;
+
+                default:
+                    System.out.println("The number " + select + " is not related to any planet.");
             }
 
         }
