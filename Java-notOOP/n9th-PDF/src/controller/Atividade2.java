@@ -29,7 +29,7 @@ public class Atividade2 {
             acum = acum + nums[i];
         }
 
-        System.out.println("The sum of the numbers ");
+        System.out.print("The sum of the numbers ");
         for (int i = 0; i < amount; i++) {
             if (i != amount - 1) {
                 System.out.print(nums[i] + ", ");
