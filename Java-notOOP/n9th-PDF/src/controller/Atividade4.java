@@ -26,8 +26,8 @@ public class Atividade4 {
         int amount = scanner.nextInt();
         scanner.nextLine();
 
-        int a[] = new int[amount];
-        int b[] = new int[amount];
+        int a[] = new int[amount], b[] = new int[amount];
+
 
         for (int i = 0; i < amount; i++) {
             System.out.println("Insert a number");
