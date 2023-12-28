@@ -43,7 +43,7 @@ public class Atividade9 {
 
         }
 
-        for (int i = 0; i != 1;) {
+        while (true) {
 
             System.out.println("Do you want to check the name list?(YES/NO)");
             check = scanner.nextLine();
