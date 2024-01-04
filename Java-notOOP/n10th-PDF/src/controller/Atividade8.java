@@ -51,8 +51,8 @@ public class Atividade8 {
             }
         }
 
-        System.out.println();
         //Output
+        System.out.println();
         for (int q = 0; q < 3; q++) {
             System.out.println("-----------------------------------------");
 
