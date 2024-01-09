@@ -34,7 +34,7 @@ public class Atividade11 {
         scanner.nextLine();
 
         double gain [] [] = new double[rows][columns];
-        double totalReg [] = new double[columns];
+        double totalReg [] = new double[rows];
         double realTotal = 0;
 
         //Filling the matrix with user input
@@ -47,27 +47,30 @@ public class Atividade11 {
                 scanner.nextLine();
 
                 /*
-                 * rows = trimester; columns = region
+                 * columns = trimester; rows = region
                  * columns = j
                  * rows = i
                  */
+            }
+        }
+
+        //Array totalReg[]
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
 
                 totalReg[i] += gain[i][j];
+
             }
         }
 
         //Variable realTotal
-        for (int i = 0; i < columns; i++) {
+        for (int i = 0; i < rows; i++) {
             realTotal += totalReg[i];
         }
 
         //Output
         System.out.println("----------------------------------------------------------");
 
-        /*for (int i = 0; i < columns; i++) {
-            System.out.println(totalReg[i]);
-        }
-        System.out.println(realTotal);*/
         for (int m = 0; m < 3; m++) {
 
             if (m == 0) {
@@ -82,13 +85,13 @@ public class Atividade11 {
 
             } else if (m == 1) {
 
-                for (int i = 0; i < rows; i++) {
+                for (int i = 0; i < columns; i++) {
 
                     System.out.print("\nTrimester " + (i+1) + " :\t\t");
 
-                    for (int j = 0; j < columns; j++) {
+                    for (int j = 0; j < rows; j++) {
 
-                        if (j != columns - 1) {
+                        if (j != rows - 1) {
                             System.out.print(gain[j][i] + "\t\t");
                         } else {
                             System.out.println(gain[j][i]);
