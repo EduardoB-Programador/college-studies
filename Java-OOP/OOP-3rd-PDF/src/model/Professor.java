@@ -30,11 +30,11 @@ public class Professor extends Person {
             String phoneNumber, String email, String schoolID, String subject) {
 
         super();
-        this.setName(name);
-        this.setSecNumber(secNumber);
-        this.setID(id);
-        this.setPhoneNumber(phoneNumber);
-        this.setEmail(email);
+        setName(name);
+        setSecNumber(secNumber);
+        setID(id);
+        setPhoneNumber(phoneNumber);
+        setEmail(email);
         this.schoolID = schoolID;
         this.subject = subject;
 
