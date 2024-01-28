@@ -2,7 +2,7 @@
 
 Adiantando que provavelmente a tradução do português para inglês não deve estar muito boa por conta da minha falta de vocabulário.
 
-O 4° PDF teve a intenção de me fazer praticar o uso do **@Override**.
+O 4° PDF teve a intenção de me fazer praticar **poliformismo**.
 
 ### Passo 1: Crie o projeto "13_Poliformismo".
 
@@ -37,6 +37,10 @@ Conclusão: Criado.
 Conclusão: A classe "Atividade" foi criada, e foi criado 2 objetos, um usando a classe "Account" e o outro usando a classe "SpecialAccount".
 
 # English
+
+I must say in advance that the trasnlation portuguese to english might not be that good, I don't know much about the topic so I had basically no vocabulary to work with.
+
+The 4th PDF intended to make me practice **polyformism**.
 
 ### Step 1: Create the project "13_Poliformismo".
 
