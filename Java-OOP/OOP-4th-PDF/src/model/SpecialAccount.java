@@ -32,6 +32,7 @@ public class SpecialAccount extends Account {
     @Override
     public String toString() {
         return super.toString() +
-                "\nCredit Limit: " + creditLimit;
+                "\nCredit limit: " + creditLimit +
+                "\nTotal balance: " + calculateBalance();
     }
 }
