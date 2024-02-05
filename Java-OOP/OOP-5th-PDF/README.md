@@ -56,20 +56,20 @@ Conclusão: Classe SpecialAccount criada, seu atributo é: double creditLimit. E
 ### Passo 3: Na classe ContaBancaria implemente um método chamado depositar. Este método deve ser acionado recebendo um valor para depósito.
 
 *• Internamente, sua lógica deve somar o valor atual de saldo com o valor de depósito e atribuir este resultado no próprio atributo global saldo.
-• Exibir de dentro desse método a String: Depósito efetuado. Saldo atual \<saldo\>
+• Exibir de dentro desse método a String: Depósito efetuado. Saldo atual "saldo"
 • Este método não possui retorno.*
 
 ### Passo 4: Ainda na classe ContaBancaria, implemente um método chamado sacar. Este método deve ser acionado recebendo um valor pretendido para saque.
 
 *• Internamente, sua lógica deve verificar se o saldo da conta é maior ou igual ao valor a ser sacado.*
 
-**○ Se sim, deve diminuir do saldo da conta o valor que foi sacado, e retornar a seguinte String: Saque efetuado no valor de \<valor recebido quando o método foi acionado\>. Saldo atual: \<valor do saldo atual\>.
+**○ Se sim, deve diminuir do saldo da conta o valor que foi sacado, e retornar a seguinte String: Saque efetuado no valor de "valor recebido quando o método foi acionado" Saldo atual: "valor do saldo atual".
 ○ Se não, deve apenas retornar a seguinte String: O saque não foi efetuado pois não há saldo suficiente.**
 
 ### Passo 5: Na Classe ContaPoupanca, implemente o método calcularNovoSaldo, que deve ser acionado recebendo a taxa de rendimento percentual da poupança.
 
 *• Internamente, sua lógica deve calcular o novo saldo da conta a partir da taxa de rendimento e atribuir este valor ao atributo saldo da super classe.
-• Exibir de dentro deste método a String: Saldo atualizado. Saldo atual: \<saldo\>
+• Exibir de dentro deste método a String: Saldo atualizado. Saldo atual: "saldo"
 • Este método não possui retorno.*
 
 ### Passo 6: Na Classe ContaEspecial, redefina o método sacar, permitindo saldo negativo até o valor do limite.
@@ -157,20 +157,20 @@ Conclusion: Class SpecialAccount created, its attribute is: double creditLimit. 
 ### Step 3: In ContaBancaria implement a method called deposit. This method must be added receiving a value to deposit.
 
 *• The method must sum the deposit value and the balance into the private global variable balance.
-• Show the String: The deposit was made, current balance is now: \<balance\>
+• Show the String: The deposit was made, current balance is now: "balance"
 • This is a void method.*
 
 ### Step 4: Still in the ContaBancaria class, implement a method called withdraw. This method must be added receiving a value to withdraw.
 
 *• The method must verify if the account balance is greater than the value to be withdrawn.*
 
-**○ If the balance is greater, subtract from the balance the withdrawn value, and return the following String: You successfully withdrew \<value\>. Your current balance is now: \<balance\>.
-○ If the balance is not greater, it must return the following String: Not enough balance, your balance is \<balance\>.**
+**○ If the balance is greater, subtract from the balance the withdrawn value, and return the following String: You successfully withdrew "value". Your current balance is now: "balance".
+○ If the balance is not greater, it must return the following String: Not enough balance, your balance is "balance".**
 
 ### Step 5: In the ContaPoupanca class, implement the method calculateNewBalance, the method must be added receiving the interest percentage for a savings account.
 
 *• The method must calculate the new account balance using the interest percentage and attribute the value to the attribute balance from the superclass.
-• Show the following String: Balance updated. Your current balance is now: \<balance\>
+• Show the following String: Balance updated. Your current balance is now: "balance"
 • This is a void method.*
 
 ### Step 6: In the ContaEspecial class, override the withdraw method, allowing negative balance using the creditLimit attribute as the max minimum value.
