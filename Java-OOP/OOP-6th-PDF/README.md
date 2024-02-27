@@ -109,12 +109,14 @@ Na subclasse Reptil, os valores que o atributo capacidadeRegenerativa pode assum
 
 2. Crie no pacote controller a Classe CadastroAnimal e instancie os seguintes objetos:
 
-	* jacare: réptil de 4 patas, coberto por escamas, reprodução tipo ovíparo, alimentação carnívoro, não possui capacidade regenerativa.
-	* lagartixa: réptil de 4 patas, coberto por escamas, reprodução tipo ovíparo, alimentação carnívoro, possui capacidade regenerativa.
-	* cachorro: mamífero de 4 patas, coberto por pelos, reprodução tipo vivíparo, alimentação carnívoro, habitat terrestre.
-	* baleia: mamífero sem patas, coberto por pele, reprodução tipo vivíparo, alimentação carnívoro, habitat aquático.
+	* Inicial:
 
-	* Conclusão: 
+		* jacare: réptil de 4 patas, coberto por escamas, reprodução tipo ovíparo, alimentação carnívoro, não possui capacidade regenerativa.
+		* lagartixa: réptil de 4 patas, coberto por escamas, reprodução tipo ovíparo, alimentação carnívoro, possui capacidade regenerativa.
+		* cachorro: mamífero de 4 patas, coberto por pelos, reprodução tipo vivíparo, alimentação carnívoro, habitat terrestre.
+		* baleia: mamífero sem patas, coberto por pele, reprodução tipo vivíparo, alimentação carnívoro, habitat aquático.
+
+	* Final: 
 
 		* alligator: réptil de 4 patas, coberto por escamas, reprodução tipo ovíparo, alimentação carnívoro, não possui capacidade regenerativa.
 		* lizard: réptil de 4 patas, coberto por escamas, reprodução tipo ovíparo, alimentação carnívoro, possui capacidade regenerativa.
@@ -123,11 +125,13 @@ Na subclasse Reptil, os valores que o atributo capacidadeRegenerativa pode assum
 
 3. Aplique o polimorfismo no método tipoDeRespiracao(), da seguinte forma:
 
-	* Na SuperClasse Animal, o referido método exibe na tela o texto “Respiração do tipo: ”
-	* Na subclasse Mamifero, o referido método aciona o método de mesmo nome na Classe Animal e também exibe na tela o texto “Pulmonar”.
-	* Na subclasse Reptil, o referido método aciona o método de mesmo nome na Classe Animal e também exibe na tela o texto “Traquial”.
+	* Inicial:
 
-	* Conclusão:
+		* Na SuperClasse Animal, o referido método exibe na tela o texto “Respiração do tipo: ”
+		* Na subclasse Mamifero, o referido método aciona o método de mesmo nome na Classe Animal e também exibe na tela o texto “Pulmonar”.
+		* Na subclasse Reptil, o referido método aciona o método de mesmo nome na Classe Animal e também exibe na tela o texto “Traquial”.
+
+	* Final:
 
 		* Na SuperClasse Animal, o referido método exibe na tela o texto “This animal's respiration type is: ”
 		* Na subclasse Mammal, o referido método aciona o método de mesmo nome na Classe Animal e também exibe na tela o texto “Pulmonary”.
